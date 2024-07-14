@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/architects.css" />
   </head>
   <body>
-    <header class="first-bg hide">
+    <header class="first-bg">
       <nav class="navbar display-flex">
         <h3 class="brand-name">G3 Architects</h3>
         <ul class="nav-links display-flex">
@@ -17,19 +17,17 @@
           <li class="nav-item"><a class="nav-link" href="">Login</a></li>
         </ul>
       </nav>
-      <div class="banner display-flex">
-        <h1>
-          Brand New <br />
-          Group of Architects
-        </h1>
-        <p>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in <br />
-          some form, by injected humour, or randomised words which don't look
-          even
-        </p>
-        <button class="primary-btn">Explore More</button>
-        <img src="images/banner.png" alt="" />
+      <div class="banner">
+        <div class="banner-content">
+          <h1 class="banner-title">Brand New Group of Architects</h1>
+          <p class="banner-description">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even
+          </p>
+          <button class="primary-btn">Explore More</button>
+        </div>
+        <img class="banner-img" src="images/banner.png" alt="" />
       </div>
     </header>
     <main>
@@ -57,7 +55,60 @@
       </section>
       <!-- team section end -->
       <!-- features section start -->
-      <section></section>
+      <section class="feature display-flex">
+        <div>
+          <h3 class="section-title" id="feature-section-title">
+            Features you will <br />
+            love & enjoy
+          </h3>
+          <p class="section-subtitle">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even
+          </p>
+          <!-- feature card and container -->
+          <div class="feature-card">
+            <h4 class="feature-title dark1">Desktop & Mobile Version</h4>
+            <p class="feature-subtitle dark3">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised...........
+            </p>
+          </div>
+          <div class="feature-card">
+            <h4 class="feature-title dark1">Drag & Drop Builder</h4>
+            <p class="feature-subtitle dark3">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised...........
+            </p>
+          </div>
+          <div class="feature-card">
+            <h4 class="feature-title dark1">Awesome Modern Design</h4>
+            <p class="feature-subtitle dark3">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised...........
+            </p>
+          </div>
+          <div class="feature-card">
+            <h4 class="feature-title dark1">Super Easy to Edit</h4>
+            <p class="feature-subtitle dark3">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised...........
+            </p>
+          </div>
+        </div>
+        <div>
+          <img class="feature-img" src="images/architect.png" alt="" />
+          <button id="experience-badge" class="primary-btn">
+            <span id="experience-year"> 10+Years </span>
+            <br>
+            <span> Experience </span>
+          </button>
+        </div>
+      </section>
       <!-- features section end -->
       <!-- our fact section start` -->
       <section class="fact-content">
@@ -99,24 +150,31 @@
         </div>
       </section>
       <!-- our fact section end -->
-       <!-- sponser section start` -->
-        <section>
-            <div class="our-sponsor">
-                <div class="sponser-info">
-                    <h3 class="section-title">Our Sponspors</h3>
-                    <p class="section-subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-                </div>
-                <div class="sponsors-companies">
-                    <img src="images/sponsors/spotify.png" alt="">
-                    <img src="images/sponsors/amazon.png" alt="">
-                    <img src="images/sponsors/telerama.png" alt="">
-                    <img src="images/sponsors/google.png" alt="">
-                    <img src="images/sponsors/figma.png" alt="">
-                </div>
-            </div>
-        </section>
-       <!-- sponser section end -->
+      <!-- sponser section start` -->
+      <section>
+        <div class="our-sponsor">
+          <div class="sponser-info">
+            <h3 class="section-title">Our Sponspors</h3>
+            <p class="section-subtitle">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration.
+            </p>
+          </div>
+          <div class="sponsors-companies">
+            <img src="images/sponsors/spotify.png" alt="" />
+            <img src="images/sponsors/amazon.png" alt="" />
+            <img src="images/sponsors/telerama.png" alt="" />
+            <img src="images/sponsors/google.png" alt="" />
+            <img src="images/sponsors/figma.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- sponser section end -->
     </main>
-    <footer></footer>
+    <footer>
+       <div class="footer-content">
+        <p>All rights reserved copyright@2023 startup landing page design</p>
+       </div>
+    </footer>
   </body>
 </html>
