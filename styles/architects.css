@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Shared styles */
+main > section{
+max-width:1440px;
+margin: 0 auto;
+margin-top: 130px;
+}
+.hide{
+    display: none;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.display-flex {
+  display: flex;
+}
+.first-bg {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.dark1 {
+  color: rgba(19, 19, 19, 1)
+}
+.dark2 {
+  color: rgba(66, 66, 66, 1);
+}
+.dark3{
+    color: rgba(114, 114, 114, 1);
+}
+.third-color{
+    color: #FF900E;
+}
+.primary-btn {
+  width: 180px;
+  height: 64px;
+  background-color: #FF900E;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+}
+.section-title{
+    font-size: 3rem;
+}
+.section-subtitle{
+    font-size: 1rem;
+}
+
+/* header styles */
+header {
+  max-width: 1920px;
+  max-height: 1322px;
+}
+
+.navbar {
+  justify-content: space-between;
+  
+  margin-bottom: 116px;
+ 
+}
+.nav-item {
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link {
+  text-decoration: none;
+}
+.banner {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+.banner p {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.banner img{
+    margin-top: 50px;
+}
+
+/* team and our features styles */
+.teams{
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.our-feature{
+    margin-left: 73px;
+
+}
+
+.our-feature p{
+    font-size: 1rem;
+}
+
+/* facts styles  */
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 120px;
+  
+}
+.facts-card{
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.fact-number{
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.fact-title{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+.fact-content p{
+    max-width: 540px;
+}
+
+
+/* responsive styles for mobile */
+@media screen and (max-width:576px) {
+    .teams{
+        flex-direction: column;
+    }
+    .team-img-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+/* responsive styles for medium devices */
+@media screen and (min-width: 576px) and (max-width:992px) {
+    .teams{
+        flex-direction: column;
+    }
+}
