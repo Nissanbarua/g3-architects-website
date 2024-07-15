@@ -133,6 +133,8 @@ header {
 }
 .feature-img {
   width: 100%;
+  margin-top: 50px;
+ 
 }
 
 #experience-badge {
@@ -216,6 +218,9 @@ footer {
   .sponsors-companies {
     grid-template-columns: repeat(1, 1fr);
   }
+  .feature-img{
+    margin-top: 0px;
+  }
   .facts-container {
     justify-items: center;
     gap: 24px;
@@ -243,5 +248,8 @@ footer {
   }
   #experience-badge {
     margin: 0 20px;
+  }
+  .feature-img{
+    margin-top: 0px;
   }
 }
